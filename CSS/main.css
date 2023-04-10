@@ -1,0 +1,54 @@
+/*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+/*estilos de la equita 1 */
+
+h1{
+    background-color: tomato;
+    text-align: center;
+
+    /* espacio interno de la etiqueta*/
+    
+    padding:20px 30px 100px 40px ;
+    
+    /*espacio externo*/
+
+   margin-top: 50px;
+}
+
+/* propiedades de la etiqueta padre */
+
+.laCaja{
+    background-color: wheat;
+    margin-top: 10px;
+}
+
+/* Propiedaders de los hijos */
+
+.caja{ background-color: rgb(122, 248, 206);
+
+    /* propiedad para el ancho de la etiqueta */
+    width:150px ;
+    /* propiedad para el alto*/
+    height:150px ;
+    margin: 10px;
+    padding: 50px;
+    border: 8px double black;
+
+    display: inline-block ;
+}
+
+/*estilos de parrafo*/
+
+.Parrafo{
+    background-color: blueviolet;
+    height: 300px;
+    width: 200px;
+
+    overflow: auto;
+}
